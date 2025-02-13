@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 const db = mysql.createConnection({
   host: "172.31.83.232", // e.g., "172.31.12.45"
   user: "admin", // Default MySQL user
-  password: "20053105",
+  password: "3105##",
   database: "mydb",
 });
 
