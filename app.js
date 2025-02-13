@@ -8,9 +8,9 @@ app.use(bodyParser.json());
 
 // Database Connection (Replace with your MySQL EC2 details)
 const db = mysql.createConnection({
-  host: "localhost", // e.g., "172.31.12.45"
-  user: "root", // Default MySQL user
-  password: "3105##",
+  host: "172.31.81.87", // e.g., "172.31.12.45"
+  user: "admin", // Default MySQL user
+  password: "310505",
   database: "studentdb",
 });
 
